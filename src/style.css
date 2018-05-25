@@ -1,1 +1,27 @@
 /* Acá va tu código */
+html {
+    background-color: #983352;
+}
+h1 {
+    text-align: center;
+    color: #4C0017;
+    font-family: Verdana;
+    font-size: 400%;
+    border-bottom: #E498AF 5px dotted;
+
+}
+.caja {
+    height: 200px;
+    width: 400px;
+    border: 4px inset crimson;
+    margin: 5px;
+    display: inline-block;
+    background-color: #E498AF;
+}
+p {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900;
+    color:maroon;
+    border-bottom: #4C0017 3px dotted;
+}
