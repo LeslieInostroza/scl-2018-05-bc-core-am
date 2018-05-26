@@ -1,7 +1,7 @@
 /* Acá va tu código */
-function myFunction(){
-    let text = document.getElementById("cifrar").value;
+window.onload = function(){
+    let text = document.getElementById("button1").value;
     let textdos = document.getElementById("descifrar").value;
 
-    
+
 } 
