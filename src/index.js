@@ -8,5 +8,9 @@ window.onload = function(){
           console.log('cifrar')
     });
 
+    button2.addEventListener('click', function(){
+      let descifrar = document.getElementById('descifrar').value;
+          console.log('descifrar')
+    });
 
 } 

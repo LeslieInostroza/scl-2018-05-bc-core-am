@@ -17,7 +17,18 @@ h1 {
     margin: 5px;
     display: inline-block;
     background-color: #E498AF;
+    position: relative;
+    left: 400px;
 }
+#button1, #button2 {
+    position: relative;
+    left: 400px;
+}
+#descifrar, #cifrar{
+    height: 100px;
+    width: 395px;
+}
+
 p {
     text-align: center;
     font-family: sans-serif;
