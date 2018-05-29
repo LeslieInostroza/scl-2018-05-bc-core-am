@@ -26,7 +26,7 @@ h1 {
     position: relative;
     left: 400px;
 }
-#descifrar, #cifrar{
+#cajadescifrar, #cajacifrar{
     height: 100px;
     width: 395px;
     background-color: #AA5439;

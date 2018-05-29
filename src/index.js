@@ -4,13 +4,13 @@ window.onload = function(){
     let button2 = document.getElementById("button2");
 
     button1.addEventListener('click', function(){
-     let cifrar = document.getElementById('cifrar').value;
-     document.getElementById('descifrar').val(cifrar);
+     let cifrar = document.getElementById('cajacifrar').value;
+          console.log(cifrar);
     });
 
     button2.addEventListener('click', function(){
-      let descifrar = document.getElementById('descifrar').value;
-      document.getElementById('cifrar').val(descifrar);
+      let descifrar = document.getElementById('cajadescifrar').value;
+          console.log(descifrar);
     });
 
 } 
