@@ -11,22 +11,25 @@
  <h1>Cifrado Cesar</h1> 
  <!-- Estructura de mi Html en secciones -->
  <section class = "uno">
-     <div class = "caja" id= "cifrado">
-         <p>Cifrado</p>
-         <input id = "cajacifrar" type="text" placeholder= "Ingrese su texto cifrado:" size = 52/>
+     <div class = "caja" id= "cifrado"> <!-- es una caja -->
+         <p class = "title">Cifrado</p>
+         <input id = "input_cifrar" type="text" placeholder= "Ingrese su texto cifrado:" size = 52/>
+         <!-- aca agregar un elemento donde devolver mensaje cifrado -->
+         <p id ="texto"></p> <!-- p id para el texto cifrado -->
          </div>
      <button id="button1">Enviar</button>
-     </section>
+ </section>
 
  <section class = "dos">
      <h2> Indique los espacios a utilizar en su mensaje:</h2>
      <input id = "caracter" type="number" min= 1 max= 35>
-     </section>
+ </section>
  
  <section class = "tres">
-     <div class = "caja" id="descifrado" >
-          <p>Descifrado</p>
-          <input id = "cajadescifrar" type="text" placeholder= "Ingrese su texto sin cifrar:" size= 52/>
+     <div class = "caja" id="descifrado" > <!-- es una caja -->
+          <p class = "title">Descifrado</p> <!-- p id para el texto cifrado -->
+          <input id = "input_descifrar" type="text" placeholder= "Ingrese su texto sin cifrar:" size= 52/>
+          <p id="texto2"></p> <!-- p id para el texto descifrado -->
          </div>
      <button id="button2">Enviar</button>
      </section>
