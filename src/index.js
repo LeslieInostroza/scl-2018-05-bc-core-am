@@ -3,6 +3,7 @@ window.onload = function(){
     const button1 = document.getElementById("button1");
     const button2 = document.getElementById("button2");
 
+    // ---> ()=> es una funcion <----
     button1.addEventListener('click', () =>{
      let cifrar = document.getElementById('cajacifrar').value;
           console.log(cifrar);
