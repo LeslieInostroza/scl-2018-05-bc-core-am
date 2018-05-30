@@ -11,7 +11,7 @@ window.onload = function(){
 
     button2.addEventListener('click', () =>{
       let descifrar = document.getElementById('cajadescifrar').value;
-          cajacifar.value = descifrar;
+          cajacifrar.value = descifrar;
     });
 
 } 
