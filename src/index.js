@@ -8,10 +8,9 @@ window.onload = function(){
      let cifrar = document.getElementById('cajacifrar').value;
          cajadescifrar.value = cifrar;
     });
-
     button2.addEventListener('click', () =>{
       let descifrar = document.getElementById('cajadescifrar').value;
-          cajacifrar.value = descifrar;
+         cajacifrar.value = descifrar;
     });
 
 } 
