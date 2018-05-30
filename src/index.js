@@ -6,12 +6,12 @@ window.onload = function(){
     // ---> ()=> es una funcion <----
     button1.addEventListener('click', () =>{
      let cifrar = document.getElementById('cajacifrar').value;
-          console.log(cifrar);
+         cajadescifrar.value = cifrar;
     });
 
     button2.addEventListener('click', () =>{
       let descifrar = document.getElementById('cajadescifrar').value;
-          console.log(descifrar);
+          cajacifar.value = descifrar;
     });
 
 } 
