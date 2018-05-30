@@ -7,31 +7,29 @@
   </head>
 
 <body>
-
-    <h1>Cifrado Cesar</h1> 
-
+<!-- Titulo de mi cifrado cesar-->
+ <h1>Cifrado Cesar</h1> 
+ <!-- Estructura de mi Html en secciones -->
  <section>
-   
      <div class = "caja" id= "cifrado">
-        <p>Cifrado</p>
-       <input id = "cajacifrar" type="text" name="cifrarCesar" placeholder= "Ingrese su codigo:" />
-      
-      </div>
+         <p>Cifrado</p>
+         <input id = "cajacifrar" type="text" name="cifrarCesar" placeholder=  "Ingrese su codigo:" size = 52/>
+    </div>
       <button id="button1">Enviar</button>
-   
- </section>
-
+   </section>
 
  <section>
-   
-      <div class = "caja" id="descifrado" >
+     <h2> Indique cuántos espacios utilizara su mensaje cifrado:</h2>
+     <input id = "numInput" type="number" min= 1 max= 25>
+ </section>
+ 
+ <section>
+     <div class = "caja" id="descifrado" >
           <p>Descifrado</p>
-          <input id= "cajadescifrar" type="text" name="descifrarCesar" placeholder= "Ingrese su texto:"/>
-        
-      </div>
+          <input id= "cajadescifrar" type="text" name="descifrarCesar"     placeholder= "Ingrese su texto:" size= 52/>
+         </div>
       <button id="button2">Enviar</button>
-     
-   </section>
+</section>
 
   <div id="root"></div>
 

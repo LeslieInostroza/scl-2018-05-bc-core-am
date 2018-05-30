@@ -7,8 +7,13 @@ h1 {
     color: wheat;
     font-family: Cambria;
     font-size: 400%;
-    text-shadow:black 4px 0;
+    text-shadow:chocolate 4px 0;
 
+}
+h2{
+    text-align: center;
+    font-family: cambria;
+    font-size: 130%;
 }
 .caja {
     height: 200px;
@@ -18,25 +23,21 @@ h1 {
     display: inline-block;
     background-color: none;
     position: relative;
-    left: 400px;
+    left: 450px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 #button1, #button2 {
     position: relative;
-    left: 400px;
+    left: 460px;
 }
-#cajadescifrar, #cajacifrar{
-    height: 100px;
-    width: 395px;
-    background-color: #AA5439;
-    color: wheat;
-}
-
 p {
     text-align: center;
-    font-family: sans-serif;
-    font-weight: 900;
-    color:maroon;
+    font-family: cambria;
+    font-size: 200%;
     border-bottom: #4C0017 3px dotted;
+}
+#numInput{
+    position: relative;
+    left:900px;
 }
