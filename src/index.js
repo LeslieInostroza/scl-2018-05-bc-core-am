@@ -13,7 +13,8 @@ window.onload = function(){
      let ciph = window.cipher.encode(cart, cifrar);
     });
   button2.addEventListener('click', () =>{
-  let descifrar=document.getElementById('input_descifrar').value.toUpperCase();let cartDos = document.getElementById("caracterDos");
+  let descifrar=document.getElementById('input_descifrar').value.toUpperCase();
+  let cartDos = document.getElementById("caracterDos");
   texto2.innerHTML = "su resultado cifrado es: " + descifrar;
   let diceph = window.cipher.decode(cartDos, descifrar);
     });
