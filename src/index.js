@@ -7,16 +7,23 @@ window.onload = function(){
 
     // ---> ()=> es una funcion <----
   button1.addEventListener('click', () =>{
-     let cifrar = document.getElementById('input_cifrar').value.toUpperCase();
-     let cart = document.getElementById("caracter");
-     texto.innerHTML = "su resultado descifrado es: " + cifrar;
-     let ciph = window.cipher.encode(cart, cifrar);
+  let cifrar = document.getElementById('input_cifrar').value.toUpperCase();
+  console.log(cifrar);
+  
+  let cart = document.getElementById("caracter");
+  let ciph = window.cipher.encode(cart, cifrar);
+  console.log(ciph);
+  
+  texto.innerHTML = `su resultado cifrado es: ${ciph}`;
+  
+  
     });
   button2.addEventListener('click', () =>{
   let descifrar=document.getElementById('input_descifrar').value.toUpperCase();
   let cartDos = document.getElementById("caracterDos");
-  texto2.innerHTML = "su resultado cifrado es: " + descifrar;
   let diceph = window.cipher.decode(cartDos, descifrar);
+  texto2.innerHTML = "su resultado descifrado es: " + deiceph;
+  
     });
 
 } 
