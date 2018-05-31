@@ -13,13 +13,13 @@ window.onload = function(){
   let cart = document.getElementById("caracter").value;
   console.log(cart);
   
-  let ciph = window.cipher.encode(cart, cifrar);
+  let ciph = window.cipher.encode(cifrar, cart);
   console.log(ciph);
   
   texto.innerHTML = `su resultado cifrado es: ${ciph}`;
-  
-  
-    });
+  });
+
+
   button2.addEventListener('click', () =>{
   let descifrar=document.getElementById('input_descifrar').value.toUpperCase();
   console.log(descifrar);
@@ -27,7 +27,7 @@ window.onload = function(){
   let cartDos = document.getElementById("caracterDos").value;
   console.log(cartDos);
 
-  let diceph = window.cipher.decode(cartDos, descifrar);
+  let diceph = window.cipher.decode(descifrar, cartDos);
   console.log(diceph);
 
   texto2.innerHTML = `su resultado descifrado es: ${diceph}`;

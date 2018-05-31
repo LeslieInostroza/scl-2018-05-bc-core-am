@@ -2,7 +2,7 @@
 
 
 window.cipher = {
-  encode: (cart,cifrar) => {
+  encode: (cifrar, cart) => {
     /* Acá va tu código */
     let result ="";
     for(let i = 0; i< cifrar.length; i++ ){
@@ -13,7 +13,7 @@ window.cipher = {
     }
     return result;
   },
-  decode: (cartDos,descifrar) => {
+  decode: (descifrar, cartDos) => {
     /* Acá va tu código */
     let resultdos="";
     for(let i = 0; i< descifrar.length; i++){
