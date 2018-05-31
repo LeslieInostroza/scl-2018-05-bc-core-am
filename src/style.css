@@ -10,10 +10,16 @@ h1 {
   text-shadow:chocolate 4px 0;
 }
 
-h2{
+.enunciado{
   text-align: center;
   font-family: cambria;
   font-size: 120%;
+}
+.enunciad{
+  text-align: center;
+  font-family: cambria;
+  font-size: 120%;
+  color: burlywood;
 }
 .caja {
   height: 180px;
