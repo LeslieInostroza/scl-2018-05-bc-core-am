@@ -1,48 +1,48 @@
 /* Acá va tu código */
 html {
-    background-image: url("img/Fondo-de-pantalla-Abstracto-277.jpg");
+  background-image: url("img/Fondo-de-pantalla-Abstracto-277.jpg");
 }
 h1 {
-    text-align: center;
-    color: wheat;
-    font-family: Cambria;
-    font-size: 400%;
-    text-shadow:chocolate 4px 0;
-
+  text-align: center;
+  color: wheat;
+  font-family: Cambria;
+  font-size: 400%;
+  text-shadow:chocolate 4px 0;
 }
+
 h2{
-    text-align: center;
-    font-family: cambria;
-    font-size: 130%;
+  text-align: center;
+  font-family: cambria;
+  font-size: 130%;
 }
 .caja {
-    height: 200px;
-    width: 400px;
-    border: 4px inset crimson;
-    margin: 5px;
-    display: inline-block;
-    background-color: none;
-    position: relative;
-    left: 450px;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+  height: 180px;
+  width: 400px;
+  border: 4px inset crimson;
+  margin: 5px;
+  display: inline-block;
+  background-color: none;
+  position: relative;
+  left: 450px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 #button1, #button2 {
-    position: relative;
-    left: 460px;
+  position: relative;
+  left: 460px;
 }
 .title {
-    text-align: center;
-    font-family: cambria;
-    font-size: 200%;
-    border-bottom: #4C0017 3px dotted;
+  text-align: center;
+  font-family: cambria;
+  font-size: 150%;
+  border-bottom: #4C0017 3px dotted;
 }
-#caracter{
-    position: relative;
-    left:900px;
+#caracter, #caracterDos{
+  position: relative;
+  left:900px;
 }
 #texto, #texto2{
-    text-align: center;
-    font-family: cambria;
-    font-size: 110%;
+  text-align: center;
+  font-family: cambria;
+  font-size: 110%;
 }
