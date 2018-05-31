@@ -10,7 +10,9 @@ window.onload = function(){
   let cifrar = document.getElementById('input_cifrar').value.toUpperCase();
   console.log(cifrar);
   
-  let cart = document.getElementById("caracter");
+  let cart = document.getElementById("caracter").value;
+  console.log(cart);
+  
   let ciph = window.cipher.encode(cart, cifrar);
   console.log(ciph);
   
@@ -20,9 +22,15 @@ window.onload = function(){
     });
   button2.addEventListener('click', () =>{
   let descifrar=document.getElementById('input_descifrar').value.toUpperCase();
-  let cartDos = document.getElementById("caracterDos");
+  console.log(descifrar);
+
+  let cartDos = document.getElementById("caracterDos").value;
+  console.log(cartDos);
+
   let diceph = window.cipher.decode(cartDos, descifrar);
-  texto2.innerHTML = "su resultado descifrado es: " + deiceph;
+  console.log(diceph);
+
+  texto2.innerHTML = `su resultado descifrado es: ${diceph}`;
   
     });
 
