@@ -7,7 +7,7 @@ window.onload = () => {
 
   // ---> ()=> es una funcion <----
   button1.addEventListener('click', () => {
-   let cifrar = document.getElementById('input_cifrar').value.toUpperCase();
+   let cifrar = document.getElementById("input_cifrar").value.toUpperCase();
    console.log(cifrar);
    let cart = document.getElementById("caracter").value;
    console.log(cart);

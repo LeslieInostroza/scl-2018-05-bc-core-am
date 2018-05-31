@@ -2,10 +2,11 @@ window.cipher = {
   encode: (cifrar, cart) => {
     /* Acá va tu código */
     let result =""; // acá se concadenan mi texto ya cifrado
-    for(let i = 0; i< cifrar.length; i++ ) {
+    for(let i = 0; i< cifrar.length; i++ ) { // ciclo for, recorre la palabra escrita por el usuario
      //let inc = cifrar.charCodeAt(i); 
-     let ecuacion = ((cifrar.charCodeAt(i) - 65 + parseInt(cart)) % 26 + 65); 
-     result += String.fromCharCode(ecuacion);
+     //calcula cuantos espacios se movera,segun indica el usuario, tranforma string a codigo ascii,(a n°) ej:A=65
+     let ecuacion = ((cifrar.charCodeAt(i) - 65 + parseInt(cart)) % 26 + 65);
+     result += String.fromCharCode(ecuacion);//transforma el n° de la ecuacion en string
      console.log(result);
     }
     return result;

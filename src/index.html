@@ -14,8 +14,8 @@
    <!-- seccion de los caracteres -->
    <section class = "espacios">
      <h2 class ="enunciad"> Indique los espacios a utilizar en su mensaje a cifrar:</h2>
-     <input id = "caracter" type="number" min= "1" max= "35">
-   </section>
+     <input id = "caracter" type="number" min= "1" max= "100">
+   </section><!-- fin seccion -->
 
     <!-- seccion de cifrado -->
    <section class = "first_section">
@@ -23,15 +23,15 @@
        <p class = "titlemod">Cifrado</p>
        <input id = "input_cifrar" type="text" placeholder= "Ingrese su texto a cifrar:" size = "52"/>
        <!-- aca agregar un elemento donde devolver mensaje cifrado -->
-       <p id ="texto"></p> <!-- p id para el texto cifrado -->
+       <p id ="texto"></p> <!-- p id para mostrar el texto ya cifrado -->
      </div> <!-- fin de div id cifrado -->
      <button id="button1">Enviar</button>
-   </section>
+   </section><!-- fin seccion -->
 
    <!-- secccion de los caracteres -->
    <section class = "espacio2"> 
      <h2 class = "enunciado"> Indique los espacios a utilizar en su mensaje a descifrar:</h2>
-     <input id = "caracterDos" type="number" min= "1" max= "35">
+     <input id = "caracterDos" type="number" min= "1" max= "100">
    </section> <!-- fin seccion caracteres -->
   
    <!-- seccion del descifrado -->
@@ -39,7 +39,7 @@
      <div class = "caja" id="descifrado" > <!-- inicio div id descifrado -->
        <p class = "title">Descifrado</p>
        <input id = "input_descifrar" type="text" placeholder= "Ingrese su texto a descifrar:" size= "52"/>
-       <p id="texto2"></p> <!-- p id para el texto descifrado -->
+       <p id="texto2"></p> <!-- p id para mostrar el texto  ya descifrado -->
      </div><!-- fin de div id descifrado -->
      <button id="button2">Enviar</button>
    </section>
