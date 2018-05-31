@@ -6,35 +6,36 @@
   <link rel="stylesheet" href="style.css" />
   </head>
 
-<body>
-<!-- Titulo de mi cifrado cesar-->
+ <body>
+ <!-- Titulo de mi cifrado cesar-->
   <h1>Cifrado Cesar</h1> 
 
  <!-- Estructura de mi Html en secciones -->
- <!-- seccion de los caracteres -->
-    <section class = "espacios">
-    <h2> Indique los espacios a utilizar en su mensaje:</h2>
-    <input id = "caracter" type="number" min= "1" max= "35">
-    </section>
+  <!-- seccion de los caracteres -->
+  <section class = "espacios">
+  <h2> Indique los espacios a utilizar en su mensaje:</h2>
+  <input id = "caracter" type="number" min= "1" max= "35">
+  </section>
 
-  <section class = "uno">
+    <!-- seccion de cifrado -->
+  <section class = "first_section">
   <div class = "caja" id= "cifrado"> <!-- comienzo de div id cifrado -->
   <p class = "title">Cifrado</p>
   <input id = "input_cifrar" type="text" placeholder= "Ingrese su texto a cifrar:" size = "52"/>
- <!-- aca agregar un elemento donde devolver mensaje cifrado -->
+  <!-- aca agregar un elemento donde devolver mensaje cifrado -->
   <p id ="texto"></p> <!-- p id para el texto cifrado -->
   </div> <!-- fin de div id cifrado -->
   <button id="button1">Enviar</button>
   </section>
 
-
- 
- <!-- seccion del descifrado -->
-    <section class = "espacio2"> <!-- seccion de los caracteres -->
-    <h2> Indique los espacios a utilizar en su mensaje:</h2>
-    <input id = "caracterDos" type="number" min= "1" max= "35">
-    </section>
- <section class = "tres">
+  <!-- secccion de los caracteres -->
+  <section class = "espacio2"> 
+  <h2> Indique los espacios a utilizar en su mensaje:</h2>
+  <input id = "caracterDos" type="number" min= "1" max= "35">
+  </section> <!-- fin seccion caracteres -->
+  
+  <!-- seccion del descifrado -->
+  <section class = "tres">
   <div class = "caja" id="descifrado" > <!-- inicio div id descifrado -->
   <p class = "title">Descifrado</p>
   <input id = "input_descifrar" type="text" placeholder= "Ingrese su texto a descifrar:" size= "52"/>
