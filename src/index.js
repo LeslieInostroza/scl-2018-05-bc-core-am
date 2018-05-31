@@ -8,14 +8,14 @@ window.onload = function(){
     // ---> ()=> es una funcion <----
   button1.addEventListener('click', () =>{
      let cifrar = document.getElementById('input_cifrar').value.toUpperCase();
-     let crt = document.getElementById("caracter");
+     let cart = document.getElementById("caracter");
      texto.innerHTML = "su resultado descifrado es: " + cifrar;
-     let cipher = window.cipher.encode(caracter, cifrar);
+     let ciph = window.cipher.encode(cart, cifrar);
     });
   button2.addEventListener('click', () =>{
-   let descifrar=document.getElementById('input_descifrar').value.toUpperCase();
-   let crtDos = document.getElementById("caracterDos");
-     texto2.innerHTML = "su resultado cifrado es: " + descifrar;
+  let descifrar=document.getElementById('input_descifrar').value.toUpperCase();let cartDos = document.getElementById("caracterDos");
+  texto2.innerHTML = "su resultado cifrado es: " + descifrar;
+  let diceph = window.cipher.decode(cartDos, descifrar);
     });
 
 } 

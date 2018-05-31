@@ -1,11 +1,13 @@
 window.cipher = {
-  encode: (crt,cifrar) => {
+  encode: (cart,cifrar) => {
     /* Acá va tu código */
-    let mensaje ="";
+    let msj ="";
     for(let i = 0; i< cifrar.lenght; i++ );
     
   },
-  decode: () => {
+  decode: (cartDos,descifrar) => {
     /* Acá va tu código */
+    let msjdos="";
+    for(let i = 0; i< descifrar.lenght; i++);
   }
 }
