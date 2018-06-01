@@ -87,5 +87,19 @@ Utilice tonalidades cafes, para darle sobriedad y calides, letras medianas a gra
 
 Utilice position relative, para poscinar, tanto las secciones, como los botones y los input, asi dejarlos en una poscision centrada y agradable a la vista.
 
+## Descargar, instalar
+
+Pasos a seguir para la descarga e instalacion:
+
+* paso 1: El usuario Necesitara tener una cuenta en GitHub, y tener instalado git.
+* Paso 2: Ingresa al GitHub **github.com/LeslieInostroza**
+* Paso 3: Dirijirse a **Repositories**
+* Paso 4: Seleccionar el repositorio **scl-2018-05-bc-core-am**
+* Paso 5: Hacer click donde dice _Fork_, esto hara que se copie el repositorio, en al GitHub del usuario.
+* Paso 6: Abrir la terminal git desde la computadora, y poscicionarse en donde se guardara el ropositorio,  recomendable en **Mis documentos**.
+* Paso 7: Una vez poscisionado, vuelve a su GitHub, se dirige a su repositorio forkeado **scl-2018-05-bc-core-am**, clickea, donde dice **clone**, _(esto clonara los archivos que contienen el app, copiandolos al computador)_ y copia el link que saldra en el recuadro.
+* Paso 8: En la terminal git, ya poscionado, escribe **git clone** y al lado pega el link clonado. (git clone git.ahsaks/jsjja_etc).
+* Paso 9: Una vez hecho esto,       , escribe **npm install**, y con esto se instalaran todos los archivos y podras utilizar la app, siguiendo las intrucciones que aparecen en el Item  "Intrucciones de uso"
+     
 
 
