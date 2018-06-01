@@ -1,0 +1,64 @@
+/* Acá va tu código */
+html {
+  background-image: url("img/Fondo-de-pantalla-Abstracto-277.jpg");
+}
+h1 {
+  text-align: center;
+  color: wheat;
+  font-family: Cambria;
+  font-size: 400%;
+  text-shadow:chocolate 4px 0;
+}
+
+.enunciado{
+  text-align: center;
+  font-family: cambria;
+  font-size: 120%;
+}
+.enunciad{
+  text-align: center;
+  font-family: cambria;
+  font-size: 120%;
+  color: burlywood;
+}
+.caja {
+  height: 180px;
+  width: 365px;
+  border: 4px inset crimson;
+  margin: 5px;
+  display: inline-block;
+  background-color: none;
+  position: relative;
+  left: 450px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#button1, #button2 {
+  position: relative;
+  left: 460px;
+}
+.title {
+  text-align: center;
+  font-family: cambria;
+  font-size: 150%;
+  border-bottom: #4C0017 3px dotted;
+  color: #551700;
+}
+#caracter, #caracterDos{
+  position: relative;
+  left:860px;
+  bottom: 35px;
+}
+#texto, #texto2{
+  text-align: center;
+  font-family: cambria;
+  font-size: 110%;
+}
+.titlemod {
+  text-align: center;
+  font-family: cambria;
+  font-size: 150%;
+  border-bottom: #4C0017 3px dotted;
+  color: burlywood;
+}
+
