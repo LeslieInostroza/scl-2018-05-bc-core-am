@@ -79,5 +79,13 @@ Una vez en la app, los pasos son:
 * Una vez hecho los dos puntos anteriores, presione **Enviar**
 * Apareceran los resultado debajo de cada cuadro de texto correspondiente.
 
+## Diseño de la app
+
+Lo diseñe, de una forma sencilla para que fuese facil de utilizar por el usuario, agradable a la vista, de esta forma lograr, que el usuario no sienta confundido al ver la app por primera vez.
+
+Utilice tonalidades cafes, para darle sobriedad y calides, letras medianas a grandes, para que se notara, tanto los titulos, como el texto escrito y el resultado, diseñe dos secciones, donde en una se pueda cifrar y en la otra descifrar, de esta forma el usuario, sabe donde colocar el mensaje que necesita cifra y/o descifrar,mostrando el resultado debajo del texto donde ha escrito.
+
+Utilice position relative, para poscinar, tanto las secciones, como los botones y los input, asi dejarlos en una poscision centrada y agradable a la vista.
+
 
 
