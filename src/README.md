@@ -12,7 +12,15 @@ Aqui vemos que se desplazo **tres** espacios, siendo asi, la letra **D** corresp
 
 Esta app permite al usuario, elegir el desplazamiento que mejor le acomode, con un **minimo de 1** y un **maximo de 100**.
 
-## Intrucciones de Uso
+## Funcionalidad del programa
+
+_¿ Como funciona ?_
+
+**¡Es muy sencillo!**
+ 
+
+
+
 
 
 
