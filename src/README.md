@@ -51,7 +51,7 @@ Como sabras, las computadoras entienden solamente numeros, y por eso fue creado 
 Por ende, lo que hace nuestra app en un lenguaje mas tecnico, es tomar el texto escrito por el usuario, en la casilla "texto cifrar", transformarla en codigo ASCII, mediante un metedo llamado **charCodeAt**, una vez obtenido mi codigo ASCII, gracias a charCodeAt, lo transformo nuevamente en un caracter alfabetico, utilizando el metedo llamado **String.fromCharCode**, obviamente entre estos dos metodos, hay una ecuacion matematica, cuyo objetivo es restar y/o sumar los espacios de desplazamiento elegido por el usuario.
 
 Ejmeplo:
-ecuacion = ((**texto_escrito_por_el_usuario**_.charCodeAt()_ - 65 + (n° desplazamieno)) % 26 + 65);
+ecuacion = ((**texto_escrito_por_el_usuario**_.charCodeAt()_ - 65 + (**n° desplazamieno**)) % 26 + 65);
 resultado = String.fromCharCode(ecuacion);
 
  * **texto_escrito_por_el_usuario**_.charCodeAt(i)_ = me transformar el texto escrito a codigo ASCII
@@ -97,9 +97,8 @@ Pasos a seguir para la descarga e instalacion:
 * Paso 4: Seleccionar el repositorio **scl-2018-05-bc-core-am**
 * Paso 5: Hacer click donde dice _Fork_, esto hara que se copie el repositorio, en al GitHub del usuario.
 * Paso 6: Abrir la terminal git desde la computadora, y poscicionarse en donde se guardara el ropositorio,  recomendable en **Mis documentos**.
-* Paso 7: Una vez poscisionado, vuelve a su GitHub, se dirige a su repositorio forkeado **scl-2018-05-bc-core-am**, clickea, donde dice **clone**, _(esto clonara los archivos que contienen el app, copiandolos al computador)_ y copia el link que saldra en el recuadro.
-* Paso 8: En la terminal git, ya poscionado, escribe **git clone** y al lado pega el link clonado. (git clone git.ahsaks/jsjja_etc).
-* Paso 9: Una vez hecho esto,       , escribe **npm install**, y con esto se instalaran todos los archivos y podras utilizar la app, siguiendo las intrucciones que aparecen en el Item  "Intrucciones de uso"
-     
-
+* Paso 7: Una vez poscisionado, vuelve a su GitHub, se dirige a su repositorio forkeado **scl-2018-05-bc-core-am**,  clickea, donde dice **clone**, _(esto clonara los archivos que contienen el app, copiandolos al computador)_ y copia el link que saldra en el recuadro.
+* Paso 8: En la terminal git, ya poscionado, escribe **git clone** y al lado pega el link clonado. __(git clone git.ahsaks/jsjja_etc)__. y podras utilizar la app, siguiendo las intrucciones que aparecen en el Item  "Intrucciones de uso"
+* Paso 9: Si el usario es programador y desea realizar cambios a la app, de colocar en la terminal git, **npm install**, esto instalara todas las dependencias del programa para ser modificado, al gusto del usuario.
+_¡ Y listo!_
 

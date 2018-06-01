@@ -7,7 +7,7 @@ window.cipher = {
      //calcula cuantos espacios se movera,segun indica el usuario, tranforma string a codigo ascii,(a n°) ej:A=65
      let ecuacion = ((cifrar.charCodeAt(i) - 65 + parseInt(cart)) % 26 + 65);
      result += String.fromCharCode(ecuacion);//transforma el n° de la ecuacion en string
-     console.log(result);
+     //console.log(result);
     }
     return result;
   },
