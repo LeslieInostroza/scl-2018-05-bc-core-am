@@ -5,8 +5,15 @@ La app Cifrado César, recibe su nombre en honor a Julio César, creador de este
 
 Aqui vemos el ejemplo, utilzado  y creado por Julio Cesar:
 
-* Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+* Alfabeto sin cifrar: **A B C** D E F G H I J K L M N O P Q R S T U V W X Y Z
+* Alfabeto cifrado:    **D E F** G H I J K L M N O P Q R S T U V W X Y Z A B C
+
+Aqui vemos que se desplazo **tres** espacios, siendo asi, la letra **D** corresponde a la letra **A**, la letra **E** corresponde a la letra **B**, la letra **F** corresponde a la letra **C** y asi sucesivamente.
+
+Esta app permite al usuario, elegir el desplazamiento que mejor le acomode, con un **minimo de 1** y un **maximo de 100**.
 
 ## Intrucciones de Uso
+
+
+
 
